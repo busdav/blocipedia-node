@@ -70,7 +70,7 @@ describe("routes : users", () => {
           url: `${base}signup`,
           form: {
 	    username: "wrong_user",
-            email: "wrong_user@example.com"
+            email: "wrong_user@example.com",
             password: "123456789"
           }
         },
